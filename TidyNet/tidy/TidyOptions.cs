@@ -584,6 +584,12 @@ namespace TidyNet
 			}
 		}
 
+        public virtual bool DropEmptyTags
+        {
+            get { return _dropEmptyTags; }
+            set { _dropEmptyTags = value; }
+        }
+
 		/// <summary>
 		/// The DOCTYPE
 		/// </summary>
@@ -894,6 +900,7 @@ namespace TidyNet
 		private bool _word2000 = false; /* draconian cleaning for Word2000 */
 		private bool _tidyMark = true; /* add meta element indicating tidied doc */
 		private bool _literalAttribs = false; /* if true attributes may use newlines */
+        private bool _dropEmptyTags = true; /* discard empty elements */
 		private TagTable _tt = new TagTable();
 	}
 }
