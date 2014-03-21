@@ -1,561 +1,373 @@
-<VisualStudioProject>
-    <CSHARP
-        ProjectType = "Local"
-        ProductVersion = "7.10.3077"
-        SchemaVersion = "2.0"
-        ProjectGuid = "{C9B7AEFC-11BF-4902-AB1C-055E87479ACE}"
-    >
-        <Build>
-            <Settings
-                ApplicationIcon = ""
-                AssemblyKeyContainerName = ""
-                AssemblyName = "TidyNet"
-                AssemblyOriginatorKeyFile = ""
-                DefaultClientScript = "JScript"
-                DefaultHTMLPageLayout = "Grid"
-                DefaultTargetSchema = "IE50"
-                DelaySign = "false"
-                OutputType = "Library"
-                PreBuildEvent = ""
-                PostBuildEvent = ""
-                RootNamespace = "TidyNet"
-                RunPostBuildEvent = "OnBuildSuccess"
-                StartupObject = ""
-            >
-                <Config
-                    Name = "Debug"
-                    AllowUnsafeBlocks = "false"
-                    BaseAddress = "285212672"
-                    CheckForOverflowUnderflow = "false"
-                    ConfigurationOverrideFile = ""
-                    DefineConstants = ""
-                    DocumentationFile = ""
-                    DebugSymbols = "true"
-                    FileAlignment = "4096"
-                    IncrementalBuild = "true"
-                    NoStdLib = "false"
-                    NoWarn = ""
-                    Optimize = "false"
-                    OutputPath = "bin\Debug\"
-                    RegisterForComInterop = "false"
-                    RemoveIntegerChecks = "false"
-                    TreatWarningsAsErrors = "false"
-                    WarningLevel = "4"
-                />
-                <Config
-                    Name = "Release"
-                    AllowUnsafeBlocks = "false"
-                    BaseAddress = "285212672"
-                    CheckForOverflowUnderflow = "false"
-                    ConfigurationOverrideFile = ""
-                    DefineConstants = ""
-                    DocumentationFile = ""
-                    DebugSymbols = "false"
-                    FileAlignment = "4096"
-                    IncrementalBuild = "true"
-                    NoStdLib = "false"
-                    NoWarn = ""
-                    Optimize = "false"
-                    OutputPath = "bin\Release\"
-                    RegisterForComInterop = "false"
-                    RemoveIntegerChecks = "false"
-                    TreatWarningsAsErrors = "false"
-                    WarningLevel = "1"
-                />
-            </Settings>
-            <References>
-                <Reference
-                    Name = "System"
-                    AssemblyName = "System"
-                />
-                <Reference
-                    Name = "System.Data"
-                    AssemblyName = "System.Data"
-                />
-                <Reference
-                    Name = "System.Drawing"
-                    AssemblyName = "System.Drawing"
-                />
-                <Reference
-                    Name = "System.Management"
-                    AssemblyName = "System.Management"
-                />
-                <Reference
-                    Name = "System.Windows.Forms"
-                    AssemblyName = "System.Windows.Forms"
-                />
-                <Reference
-                    Name = "System.Design"
-                    AssemblyName = "System.Design"
-                />
-                <Reference
-                    Name = "System.XML"
-                    AssemblyName = "System.Xml"
-                />
-                <Reference
-                    Name = "mscorlib"
-                    AssemblyName = "mscorlib"
-                />
-            </References>
-        </Build>
-        <Files>
-            <Include>
-                <File
-                    RelPath = "AssemblyInfo.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "TidyMessages.resx"
-                    BuildAction = "EmbeddedResource"
-                />
-                <File
-                    RelPath = "dom\DomException.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "dom\IAttr.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "dom\ICDATASection.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "dom\ICharacterData.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "dom\IComment.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "dom\IDocument.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "dom\IDocumentFragment.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "dom\IDocumentType.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "dom\IDomImplementation.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "dom\IElement.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "dom\IEntity.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "dom\IEntityReference.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "dom\INamedNodeMap.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "dom\INode.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "dom\INodeList.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "dom\INotation.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "dom\IProcessingInstruction.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "dom\IText.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "dom\NodeType.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\AlignAttrCheck.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\AnchorCheckTableCheckAttribs.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\AreaCheckTableCheckAttribs.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\AttrCheckImpl.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\Attribute.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\AttributeTable.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\AttVal.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\BoolAttrCheck.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\CaptionCheckTableCheckAttribs.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\CharEncoding.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\CheckAttribsImpl.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\Clean.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\ClsStreamInImpl.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\ContentModel.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\Dict.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\DocType.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\DomAttrImpl.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\DomAttrMapImpl.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\DomCdataSectionImpl.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\DomCharacterDataImpl.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\DomCommentImpl.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\DomDocumentImpl.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\DomDocumentTypeImpl.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\DomElementImpl.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\DomNodeImpl.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\DomNodeListByTagNameImpl.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\DomNodeListImpl.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\DomProcessingInstructionImpl.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\DomTextImpl.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\Entity.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\EntityTable.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\HrCheckTableCheckAttribs.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\HtmlCheckAttribs.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\HtmlVersion.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\IAttrCheck.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\ICheckAttribs.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\IdAttrCheck.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\ImgCheckTableCheckAttribs.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\InlineStack.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\IParser.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\Lexer.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\LinkCheckTableCheckAttribs.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\MapCheckTableCheckAttribs.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\MessageLevel.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\MutableBoolean.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\MutableInteger.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\MutableObject.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\NameAttrCheck.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\Node.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\Out.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\OutImpl.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\ParserImpl.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\PPrint.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\Report.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\ScriptAttrCheck.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\ScriptCheckAttribs.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\StreamIn.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\StreamInImpl.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\Style.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\StyleCheckTableCheckAttribs.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\StyleProp.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\TableCellCheckTableCheckAttribs.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\TableCheckAttribs.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\TagTable.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\Tidy.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\TidyMessage.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\TidyMessageCollection.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\TidyOptions.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\UrlAttrCheck.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "tidy\ValignAttrCheck.cs"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-            </Include>
-        </Files>
-    </CSHARP>
-</VisualStudioProject>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.10.3077</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C9B7AEFC-11BF-4902-AB1C-055E87479ACE}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>TidyNet</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TidyNet</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <Name>mscorlib</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Management">
+      <Name>System.Management</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dom\DomException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dom\IAttr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dom\ICDATASection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dom\ICharacterData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dom\IComment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dom\IDocument.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dom\IDocumentFragment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dom\IDocumentType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dom\IDomImplementation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dom\IElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dom\IEntity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dom\IEntityReference.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dom\INamedNodeMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dom\INode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dom\INodeList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dom\INotation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dom\IProcessingInstruction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dom\IText.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dom\NodeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\AlignAttrCheck.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\AnchorCheckTableCheckAttribs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\AreaCheckTableCheckAttribs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\AttrCheckImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\Attribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\AttributeTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\AttVal.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\BoolAttrCheck.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\CaptionCheckTableCheckAttribs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\CharEncoding.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\CheckAttribsImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\Clean.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\ClsStreamInImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\ContentModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\Dict.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\DocType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\DomAttrImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\DomAttrMapImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\DomCdataSectionImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\DomCharacterDataImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\DomCommentImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\DomDocumentImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\DomDocumentTypeImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\DomElementImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\DomNodeImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\DomNodeListByTagNameImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\DomNodeListImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\DomProcessingInstructionImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\DomTextImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\Entity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\EntityTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\HrCheckTableCheckAttribs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\HtmlCheckAttribs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\HtmlVersion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\IAttrCheck.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\ICheckAttribs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\IdAttrCheck.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\ImgCheckTableCheckAttribs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\InlineStack.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\IParser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\Lexer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\LinkCheckTableCheckAttribs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\MapCheckTableCheckAttribs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\MessageLevel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\MutableBoolean.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\MutableInteger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\MutableObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\NameAttrCheck.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\Node.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\Out.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\OutImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\ParserImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\PPrint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\Report.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\ScriptAttrCheck.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\ScriptCheckAttribs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\StreamIn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\StreamInImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\Style.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\StyleCheckTableCheckAttribs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\StyleProp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\TableCellCheckTableCheckAttribs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\TableCheckAttribs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\TagTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\Tidy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\TidyMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\TidyMessageCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\TidyOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\UrlAttrCheck.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tidy\ValignAttrCheck.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="TidyMessages.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>
