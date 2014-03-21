@@ -181,6 +181,29 @@ namespace TidyNet
 			}
 		}
 
+        /// <summary>
+        /// Parses the input string and returns the tidied output
+        /// </summary>
+        /// <param name="input">The input string</param>
+        /// <param name="messages">The messages</param>
+        public virtual string Parse(string input, TidyMessageCollection messages)
+        {
+            if (!String.IsNullOrEmpty(input))
+            {
+                var inputStream = new MemoryStream();
+                var outputStream = new MemoryStream();
+
+                var byteArray = System.Text.Encoding.UTF8.GetBytes(input);
+                inputStream.Write(byteArray, 0, byteArray.Length);
+                inputStream.Position = 0;
+
+                Parse(inputStream, outputStream, messages);
+
+                return System.Text.Encoding.UTF8.GetString(outputStream.ToArray());
+            }
+            return "";
+        }
+
 		/// <summary>
 		/// Parses the input stream and writes to the output.
 		/// </summary>
